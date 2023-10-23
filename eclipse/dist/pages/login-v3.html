@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            background-color: #1A223F; /* Dark purple background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .gui {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .text {
+            color: #1A223F; 
+            font-weight: bold;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gui">
+        <div class="text">Please Wait...</div>
+    </div>
+    <script>
+        
+        setTimeout(function() {
+            window.location.href = 'https://eclipse-main.netlify.app/login.html';
+        }, 2000); 
+    </script>
+</body>
+</html>
+

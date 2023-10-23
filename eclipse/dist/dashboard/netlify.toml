@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "../dist/dashboard/index.html"
+status = 200
